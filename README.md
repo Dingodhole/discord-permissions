@@ -6,7 +6,7 @@ Just send pull request
 ## Authors
 
 * **Niilo Jaakkola** - *CEO, cleaning and code review*
-* **Lukas ??** - *Hosting and other ground work*
+* **Lukas Luotola** - *Hosting and other ground work*
 
 ## License
 
