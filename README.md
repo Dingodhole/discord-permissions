@@ -1,26 +1,4 @@
-# Arkea Bot - 1.4 - ES6 - WIP
-
-## Getting Started
-
-1. Clone git repo
-2. Run to install depencies:
-
-```
-npm install
-```
-
-3. Run to start server:
-
-```
-npm start
-```
-
-To build but not start use:
-
-```
-npm run build
-```
-
+# Project Zeus
 
 ## Contributing
 Just send pull request
