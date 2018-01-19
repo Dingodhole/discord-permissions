@@ -1,0 +1,46 @@
+{
+  "name": "arkea-bot",
+  "version": "1.3.0",
+  "description": "Discord Arkea bot | Discord.js libraries (discord.js.org)",
+  "main": "Program.js",
+  "scripts": {
+    "build": "rimraf build/ && babel ./src/ --out-dir build/ --copy-files",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dingodhole/arkea-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Arkea",
+    "bot",
+    "js",
+    "javascript"
+  ],
+  "author": "Nibs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dingodhole/arkea-bot/issues"
+  },
+  "homepage": "https://github.com/Dingodhole/arkea-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "es6-promise": "^4.2.2",
+    "express": "^4.16.2",
+    "isomorphic-fetch": "^2.2.1",
+    "morgan": "^1.9.0",
+    "node-schedule": "^1.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "rimraf": "^2.6.2"
+  }
+}
