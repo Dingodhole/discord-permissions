@@ -1,0 +1,36 @@
+- Kaikki based on user id
+- Tier setup
+- Lista kanavii, Haluun olla en haluu
+- MongoDB useril on objekti
+
+
+id:
+tier:
+kanavat_joissa_ei: []
+kanavat_jossa_joo: []
+
+
+-mongoDB:
+muuttunut: true/false
+
+
+- MongoDB lista kanavist jotka ei tuu
+lista_kanavista_joita_ei_saa_valita_itse: ["admin", "muut pasket"]
+
+
+-tiers
+1: perus,
+2: luokka,
+3: opt_in,
+4: mod,
+5: admin
+
+
+---botti---
+- aina välil hakee kaikki db ja tsekkaa muuuttunut
+	> Joka channelin user kohtanen permission based tiers
+	> Kanavat joihin haluee/ei halua based user objects
+
+
+-----AI------
+- Dataa ihan vitusti joskus
